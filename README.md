@@ -2,6 +2,9 @@
 
 Access HERE => [my-dashboard-in-react.netlify.app](https://my-dashboard-in-react.netlify.app/)
 
+![image](https://user-images.githubusercontent.com/66978846/188064065-1b24a71a-ce98-418d-a60d-4b1412f6544a.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
