@@ -1,0 +1,79 @@
+.MuiTableRow-root > * {
+  padding: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: bold !important;
+  color: white;
+  text-align: center;
+}
+
+.Table {
+ padding-top: 5%;
+ 
+}
+
+.Table td,
+th {
+  border: none !important;
+  background-color: #202528;
+  color: #a3bdcc;
+  text-align: center;
+
+}
+.Table .big-table {
+  border: solid;
+  border-radius: 0.7rem;
+  border-width: 2px;
+  border-color: #7d8da1;
+ 
+}
+.Table .big-table .table-name {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  color: #a3bdcc;
+}
+.Table .big-table .transaction {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+ 
+}
+.Table:first-child {
+  border-radius: 0.7rem !important;
+  
+}
+
+.Table a{
+  text-align: center;
+  display: block;
+  margin: 1rem auto;
+  color: #00b5ff
+}
+
+
+.category {
+  padding: 8px;
+  border-radius: 9px;
+}
+
+.Details {
+  color: #00b5ff !important; 
+}
+
+@media screen and (max-width: 1200px) {
+  .Table {
+    width: 170%;
+    margin-top: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .Table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23rem;
+  }
+}

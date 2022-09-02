@@ -1,0 +1,36 @@
+
+.Updates{
+    width: 85%;
+    background: white;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+   
+    background-color:#202528;
+    border: solid;
+    border-width: 2px;
+    border-color: #7d8da1;
+    box-shadow: 0px 13px 20px 0px #80808029;
+}
+
+.Updates :hover{
+    box-shadow: none 
+}
+
+.update{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.update>img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 1.7rem;
+}
+
+.noti>div>span:nth-of-type(1){
+    font-weight: bold;
+}
